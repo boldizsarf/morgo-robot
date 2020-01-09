@@ -14,6 +14,8 @@ This is my first Arduino project, I just created for fun, but if you want, you c
 - Write the code for walking and turning to all directions
 - Write the smart obstacle avoidance code
 - Better cable management
+- RC capability
+- Twerk dance
 
 > Used board: Arduino Nano
 
