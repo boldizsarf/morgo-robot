@@ -9,6 +9,7 @@ This is my first Arduino project, I just created for fun, but if you want, you c
 - Simple walking code
 
 ## Todo List
+- Better walking algorithm
 - Complete the code
 - RC capability
 - Twerk dance
