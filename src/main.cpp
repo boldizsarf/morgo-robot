@@ -18,7 +18,13 @@ void allServoToZero() {
   front_left.write(0);
   rear_right.write(0);
   rear_left.write(0);
-  delay(3000);
+}
+
+void allServoTo90(/* arguments */) {
+  front_right.write(90);
+  front_left.write(90);
+  rear_right.write(90);
+  rear_left.write(90);
 }
 
 void sitUp() {
@@ -93,27 +99,44 @@ void leftBackward() {
   RLBackward();
 }
 
-/* Move to directions */
+/* Movement */
 
 void moveForward() {
-  while (true) {
-    rightForward();
-    delay(250);
-    leftForward();
-    delay(250);
-    rightBackward();
-    leftBackward();
-    delay(250);
+  FRForward();
+  delay(150);
+  RLForward();
+  delay(150);
+  FLForward();
+  delay(150);
+  RRForward();
+  delay(150);
+  allServoTo90();
+  delay(150);
+}
+
+void Twerk() {
+  int pos = 0;
+  delay(1000);
+  for (pos = 0; pos <= 90; pos += 4) {
+    rear_right.write(pos);
+    rear_left.write(pos);
+    delay(15);
+  }
+  for (pos = 90; pos >= 0; pos -= 4) {
+    rear_right.write(pos);
+    rear_left.write(pos);
+    delay(15);
   }
 }
 
 void setup() {
   attachServos();
   allServoToZero();
+  delay(3000);
   sitUp();
-  moveForward();
+  delay(1000);
 }
 
 void loop() {
-
+  moveForward();
 }
