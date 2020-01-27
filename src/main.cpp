@@ -7,9 +7,9 @@ Servo rear_right;
 Servo rear_left;
 
 void attachServos() {
-  front_right.attach(11);
+  front_right.attach(3);
   front_left.attach(10);
-  rear_right.attach(3);
+  rear_right.attach(11);
   rear_left.attach(9);
 }
 
@@ -102,39 +102,61 @@ void leftBackward() {
 /* Movement */
 
 void moveForward() {
-  FRForward();
-  delay(150);
-  RLForward();
-  delay(150);
-  FLForward();
-  delay(150);
-  RRForward();
-  delay(150);
-  allServoTo90();
-  delay(150);
+  rightForward();
+  delay(250);
+  leftForward();
+  delay(250);
+  rightBackward();
+  leftBackward();
+  delay(250);
 }
 
-void Twerk() {
-  int pos = 0;
+/* Sounds */
+
+void sysStartupSound() {
+  tone(5, 1000);
   delay(1000);
-  for (pos = 0; pos <= 90; pos += 4) {
-    rear_right.write(pos);
-    rear_left.write(pos);
-    delay(15);
-  }
-  for (pos = 90; pos >= 0; pos -= 4) {
-    rear_right.write(pos);
-    rear_left.write(pos);
-    delay(15);
-  }
+  noTone(5);
+}
+
+void servoReadySound() {
+  tone(5, 2000);
+  delay(250);
+  noTone(5);
+  delay(250);
+  tone(5, 2000);
+  delay(250);
+  noTone(5);
+}
+
+void startMovingSound() {
+  tone(5, 3000);
+  delay(150);
+  noTone(5);
+  delay(150);
+  tone(5, 3000);
+  delay(150);
+  noTone(5);
+  delay(150);
+  tone(5, 3000);
+  delay(150);
+  noTone(5);
 }
 
 void setup() {
+
+  sysStartupSound();
+
   attachServos();
   allServoToZero();
+
+  servoReadySound();
+
   delay(3000);
   sitUp();
   delay(1000);
+
+  startMovingSound();
 }
 
 void loop() {
