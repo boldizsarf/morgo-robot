@@ -17,7 +17,9 @@ This is my first Arduino project, I just created for fun, but if you want, you c
 > Used board: Arduino Nano
 
 ## Final robot
-![Top](https://silverwolf.pro/wp-content/uploads/2020/01/DSC02855.jpg)
+![Top](https://i.ibb.co/qrJdfvK/DSC02855.jpg)
+![Side](https://i.ibb.co/s5TP9HP/DSC02861.jpg)
+![Bottom](https://i.ibb.co/N9YCXnr/DSC02850.jpg)
 
 ## Morgó Baseboard PCB
 ![Morgó PCB](https://i.ibb.co/vdwhfys/morg-pcb-render.jpg)
