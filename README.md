@@ -6,17 +6,18 @@ This is my first Arduino project, I just created for fun, but if you want, you c
 ## What I've done so far
 - Robot prototype
 - Robot PCB (Morgó Baseboard)
-- Simple walking code
+- Simple walking
+- Beeping
 
 ## Todo List
-- Complete the code
+- Turn around
+- Obstacle avoidance
+- Some smart 
 
 > Used board: Arduino Nano
 
-## Prototype
-![Morgó](https://i.imgur.com/TMKIKOa.jpg)
-![Morgó](https://i.imgur.com/ZWHgnjJ.jpg)
-![Morgó](https://i.imgur.com/FG2JURv.jpg)
+## Final robot
+![Top](https://silverwolf.pro/wp-content/uploads/2020/01/DSC02855.jpg)
 
 ## Morgó Baseboard PCB
 ![Morgó PCB](https://i.ibb.co/vdwhfys/morg-pcb-render.jpg)
