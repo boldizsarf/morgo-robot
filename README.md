@@ -17,9 +17,11 @@ This is my first Arduino project, I just created for fun, but if you want, you c
 > Used board: Arduino Nano
 
 ## Final robot
-![Top view](https://i.ibb.co/qrJdfvK/DSC02855.jpg)
-![Side view](https://i.ibb.co/s5TP9HP/DSC02861.jpg)
-![Bottom view](https://i.ibb.co/N9YCXnr/DSC02850.jpg)
+[Top view](https://i.ibb.co/qrJdfvK/DSC02855.jpg)
+
+[Side view](https://i.ibb.co/s5TP9HP/DSC02861.jpg)
+
+[Bottom view](https://i.ibb.co/N9YCXnr/DSC02850.jpg)
 
 ## Morgó Baseboard PCB
 ![Morgó PCB](https://i.ibb.co/vdwhfys/morg-pcb-render.jpg)
