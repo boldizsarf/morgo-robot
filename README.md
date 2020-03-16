@@ -3,16 +3,14 @@ Morgó is an Arduino servo based walking robot.
 
 This is my first Arduino project, I just created for fun, but if you want, you can make this robot also. The robot is still in development stage. 
 
-## What I've done so far
-- Robot prototype
-- Robot PCB (Morgó Baseboard)
-- Simple walking
-- Beeping
-
 ## Todo List
-- Turn around
-- Obstacle avoidance
-- Intelligence
+- :heavy_check_mark: Robot prototype
+- :heavy_check_mark: Robot PCB (Morgó Baseboard)
+- :heavy_check_mark: Simple walking
+- :heavy_check_mark: Beeping
+- :heavy_check_mark: Turn around
+- :heavy_check_mark: Obstacle avoidance
+- :heavy_exclamation_mark: Some code improvement
 
 > Used board: Arduino Nano
 
