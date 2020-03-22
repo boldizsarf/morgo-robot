@@ -1,7 +1,16 @@
 # morgo-robot
-Morgó is an Arduino servo based walking robot.
+Morgó is an Arduino based servo walking robot.
 
-This is my first Arduino project, I just created for fun, but if you want, you can make this robot also. The robot is still in development stage. 
+This is my first Arduino project. I just created it for fun, and learning. But if you want, you can also make the robot.
+
+## Part List
+- 1x Morgó Baseboard PCB or 5x7cm Prototype PCB
+- 1x Arduino Nano
+- 4x SG90 servo
+- 3x HC-SR04-4P ultrasonic sensor
+- 1x Piezo speaker
+- 1x 100 Ohm resistor
+- 1x 9V battery holder
 
 ## Todo List
 - :heavy_check_mark: Robot prototype
@@ -11,8 +20,6 @@ This is my first Arduino project, I just created for fun, but if you want, you c
 - :heavy_check_mark: Turn around
 - :heavy_check_mark: Obstacle avoidance
 - :heavy_exclamation_mark: Some code improvement
-
-> Used board: Arduino Nano
 
 ## Final robot
 [Top view](https://i.ibb.co/qrJdfvK/DSC02855.jpg)
